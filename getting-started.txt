@@ -1,0 +1,30 @@
+// Friday, December 20th 2019
+
+Proposed data source: NFL data instead of eSports because:
+  -Many more years of data available
+  -Many more data points available
+  -More common / popular
+  -eSports has more violent terminology (especially CSGO)
+
+Brainstorming features:
+  -Main page with "top 10" lists (ex: QBs, RBs, Receivers, LBs, etc.) at top
+  -Below that, team logos and names displayed as grid
+    -Click on logo -> go to team page
+    -Team pages highlight top players, roster, etc.
+  -Data obtained using scraping or API, TBD
+  -Simple text database: stats per team per year
+    -Per team: individual player stats
+      -Special case: players being traded during season and having stats for more than one team
+  -Down the road: pretty visualizations for things like a team's yards per season, TDs per season, yards against, tackles, etc.
+
+Implementation:
+  -Noah's guidance -> TBD
+    -Front end langs/tools?
+    -Back end langs/tools?
+    -Scraping/getting data?
+
+My desired tasks:
+  1. Database
+  2. Scraping/getting data
+  3. ???
+  4. Interested in front end but very little experience
